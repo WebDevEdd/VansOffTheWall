@@ -1,0 +1,100 @@
+{
+    "shoes":[
+        {
+            "key": 1,
+            "type": "shoes",
+            "color": "black",
+            "name": "Classic All Black",
+            "price": 39.99,
+            "image": "ClassicAllBlack.png"
+        },
+        {
+            "key": 2,
+            "type": "shoes",
+            "color": "blue",
+            "name": "Classic Blue",
+            "price": 39.99,
+            "image": "ClassicBlue.png"
+        },
+        {
+            "key": 3,
+            "type": "shoes",
+            "color": "burgundy",
+            "name": "Classic Burgundy",
+            "price": 39.99,
+            "image": "ClassicBurgundy.png"
+        },
+        {
+            "key": 4,
+            "type": "shoes",
+            "color": "red",
+            "name": "Classic Red",
+            "price": 39.99,
+            "image": "ClassicRed.png"
+        },
+        {
+            "key": 5,
+            "type": "shoes",
+            "color": "black",
+            "name": "Old Skool Black Flames",
+            "price": 59.99,
+            "image": "OldSkoolFlames.png"
+        },
+        {
+            "key": 6,
+            "type": "shoes",
+            "color": "blue",
+            "name": "Old Skool Floral",
+            "price": 59.99,
+            "image": "OldSkoolFloral.png"
+        },
+        {
+            "key": 7,
+            "type": "shoes",
+            "color": "grey",
+            "name": "Old Skool Grey",
+            "price": 59.99,
+            "image": "OldSkoolGrey.png"
+        },
+        {
+            "key": 8,
+            "type": "shoes",
+            "color": "blue",
+            "name": "Old Skool Turquoise",
+            "price": 59.99,
+            "image": "OldSkoolTurquoise.png"
+        },
+        {
+            "key": 9,
+            "type": "shoes",
+            "color": "green",
+            "name": "Old Skool Yacht Club",
+            "price": 59.99,
+            "image": "OldSkoolYachtClub.png"
+        },
+        {
+            "key": 10,
+            "type": "shoes",
+            "color": "yellow",
+            "name": "Old Skool Yellow",
+            "price": 59.99,
+            "image": "OldSkoolYellow.png"
+        },
+        {
+            "key": 11,
+            "type": "shoes",
+            "color": "white",
+            "name": "Slip-On Angel Print",
+            "price": 49.99,
+            "image": "SlipOnAngelPrint.png"
+        },
+        {
+            "key": 12,
+            "type": "shoes",
+            "color": "blue",
+            "name": "Slip-On Blue",
+            "price": 49.99,
+            "image": "SlipOnBlue.png"
+        }
+    ]
+}

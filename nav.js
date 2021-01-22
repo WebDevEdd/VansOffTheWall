@@ -12,5 +12,7 @@ burger.addEventListener('click', () => {
       line3.classList.toggle('line3-opened');
 
       navLinks.classList.toggle('side-menu-visible');
-      navLinks.style.transition = "all 0.4s ease";
+      navLinks.style.transition = "0.25s ease";
+
 });
+

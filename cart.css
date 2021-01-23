@@ -61,4 +61,9 @@
 }
 .rmv-btn{
       cursor: default;
+      position: relative;
+      margin-right: 20px;
+}
+.cart-row-section-btn{
+      width: 10px;
 }

@@ -96,5 +96,47 @@
             "price": 49.99,
             "image": "SlipOnBlue.png"
         }
+    ],
+    "shirts":[
+        {
+            "key": 13,
+            "type": "shirts",
+            "color": "black",
+            "name": "Shirt Black",
+            "price": 19.99,
+            "image": "ShirtBlack.png"
+        },
+        {
+            "key": 14,
+            "type": "shirts",
+            "color": "blue",
+            "name": "Shirt Blue",
+            "price": 19.99,
+            "image": "ShirtBlue.png"
+        },
+        {
+            "key": 15,
+            "type": "shirts",
+            "color": "green",
+            "name": "Shirt BlueGreen",
+            "price": 19.99,
+            "image": "ShirtBlueGreen.png"
+        },
+        {
+            "key": 16,
+            "type": "shirts",
+            "color": "white",
+            "name": "Shirt White",
+            "price": 19.99,
+            "image": "ShirtWhite.png"
+        },
+        {
+            "key": 17,
+            "type": "shirts",
+            "color": "blue",
+            "name": "Shirt Yellow",
+            "price": 19.99,
+            "image": "ShirtYellow.png"
+        }
     ]
 }

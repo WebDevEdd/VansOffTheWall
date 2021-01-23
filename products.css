@@ -19,6 +19,8 @@
       flex-wrap: wrap;
       gap: 30px;
       justify-content: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
 }
 .product-card{
       width: 250px;

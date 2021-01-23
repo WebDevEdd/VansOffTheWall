@@ -12,7 +12,7 @@ fetch("./vansAPI.json")
         const cardContent = `
         <div key=${shoe.key} color=${shoe.color} type=${shoe.type} class="product-card">
             <div class="product-card-img">
-                <img src="/images/Shoes/${shoe.image}" alt="">
+                <img src="/images/${shoe.type}/${shoe.image}" alt="">
             </div>
             <h3 class="product-card-name">
                 ${shoe.name}
@@ -25,7 +25,11 @@ fetch("./vansAPI.json")
             </button>
         </div>
         `
-        productsContainer.innerHTML += cardContent;
+        try {
+            productsContainer.innerHTML += cardContent;
+        }
+        catch(error) {}
+        
     });
 
 
@@ -42,9 +46,10 @@ fetch("./vansAPI.json")
                 localStorage.setItem(itemKey, JSON.stringify(item));
                 //update cart num on click
                 numOfCartItems.innerHTML = localStorage.length;
-
             })
         });
+
+        
     };
 
     addItemToCart();
@@ -76,9 +81,10 @@ const cartRow = () => {
                 </div>
             </div>
         `
-
-        cartContainer.innerHTML += rowContent;
-
+        try {
+            cartContainer.innerHTML += rowContent;
+        }
+        catch(error) {}
     });
 
 }
@@ -129,8 +135,12 @@ const cartTotal = () => {
     console.log(grandTotalReduced);
 
     const cartTotal = document.querySelector('.cart-total-span');
-
-    cartTotal.innerHTML = grandTotalReduced;
+     try {
+        cartTotal.innerHTML = grandTotalReduced;
+     }
+     catch(error) {}
+    
 
 };
 cartTotal();
+

@@ -12,7 +12,7 @@ fetch("./vansAPI.json")
         const cardContent = `
         <div key=${shoe.key} color=${shoe.color} type=${shoe.type} class="product-card">
             <div class="product-card-img">
-                <img src="https://raw.githubusercontent.com/WebDevEdd/VansOffTheWall/master/images/${shoe.type}/${shoe.image}" alt="">
+                <img src="https://raw.githubusercontent.com/WebDevEdd/VansOffTheWall/master/images/Shoes/${shoe.image}" alt="">
             </div>
             <h3 class="product-card-name">
                 ${shoe.name}

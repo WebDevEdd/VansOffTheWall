@@ -12,7 +12,7 @@ fetch("./vansAPI.json")
         const cardContent = `
         <div key=${shoe.key} color=${shoe.color} type=${shoe.type} class="product-card">
             <div class="product-card-img">
-                <img src="/images/${shoe.type}/${shoe.image}" alt="">
+                <img src="images/${shoe.type}/${shoe.image}" alt="">
             </div>
             <h3 class="product-card-name">
                 ${shoe.name}
@@ -71,7 +71,7 @@ const cartRow = () => {
             <div id=${storedItemProps.key} class="cart-row">
                 <div class="cart-row-section">
                     <p class='rmv-btn'>x</p>
-                    <img class="cart-row-img" src="/images/${storedItemProps.type}/${storedItemProps.image}" alt="">
+                    <img class="cart-row-img" src="images/${storedItemProps.type}/${storedItemProps.image}" alt="">
                 </div>
                 <div class="cart-row-section">
                     <p class="cart-row-name">${storedItemProps.name}</p>

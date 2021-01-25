@@ -4,19 +4,19 @@
   box-sizing: border-box;
   font-family: "Bebas Neue", cursive;
 }
-body{
+body {
   overflow-x: hidden;
 }
 /* NAVBAR */
-#nav-logo{
+#nav-logo {
   height: 70px;
 }
-.nav-cart-icon-container{
+.nav-cart-icon-container {
   width: 32px;
   height: 32px;
   display: flex;
 }
-.num-of-cart-items{
+.num-of-cart-items {
   position: absolute;
   background-color: red;
   color: white;
@@ -25,24 +25,24 @@ body{
   font-weight: 100;
   font-size: 12px;
 }
-#nav-cart-icon{
+#nav-cart-icon {
   height: 35px;
   cursor: pointer;
 }
-.nav-wrapper{
+.nav-wrapper {
   width: 100%;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.nav-container{
+.nav-container {
   width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.nav-links-container{
+.nav-links-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,50 +50,50 @@ body{
   gap: 20%;
   list-style: none;
 }
-.nav-links{
+.nav-links {
   cursor: pointer;
   font-size: 24px;
   border: 2px solid transparent;
 }
-.nav-links:hover{
+.nav-links:hover {
   border-bottom: 2px solid rgb(153, 47, 47);
 }
 /* BURGER */
-.burger{
+.burger {
   height: 3px;
   width: 30px;
   background-color: black;
   transition: all 0.5s ease;
 }
-.burger-icon{
+.burger-icon {
   height: 24px;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
   display: none;
 }
-.burger-icon:hover{
+.burger-icon:hover {
   cursor: pointer;
 }
-.line1-opened{
+.line1-opened {
   transform: rotate(-45deg) translateY(15px);
 }
-.line3-opened{
+.line3-opened {
   transform: rotate(45deg) translateY(-15px);
 }
-.line2-opened{
+.line2-opened {
   opacity: 0;
 }
-.nav-links-a{
+.nav-links-a {
   text-decoration: none;
   color: black;
 }
 /* NAVBAR RESPONSIVENESS */
-@media screen and (max-width: 963px){
-  .burger-icon{
+@media screen and (max-width: 963px) {
+  .burger-icon {
     display: flex;
   }
-  .nav-links-container{
+  .nav-links-container {
     position: absolute;
     top: 80px;
     flex-direction: column;
@@ -107,11 +107,11 @@ body{
     transform: translateX(100%);
     visibility: hidden;
   }
-  .side-menu-visible{
+  .side-menu-visible {
     transform: translateX(0);
     visibility: visible;
   }
-  .nav-links{
+  .nav-links {
     background-color: rgb(255, 255, 255);
     height: 100%;
     width: 100%;
@@ -120,34 +120,32 @@ body{
     align-items: center;
     justify-content: center;
   }
-  .nav-links-a{
+  .nav-links-a {
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .nav-links:hover{
+  .nav-links:hover {
     background-color: rgb(153, 47, 47);
     color: white;
   }
-  .nav-links-a:hover{
+  .nav-links-a:hover {
     background-color: rgb(153, 47, 47);
     color: white;
   }
 }
 
-
-
 /* Hero Section */
-.hero-section{
+.hero-section {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   height: calc(100vh - 80px);
 }
-.hero-container{
+.hero-container {
   width: 90%;
   height: 100%;
   background-color: white;
@@ -156,14 +154,14 @@ body{
   align-items: center;
   gap: 15px;
 }
-.hero-left{
-  background-image: url('/images/heroImage.jpg');
+.hero-left {
+  background-image: url("images/heroImage.jpg");
   width: 40%;
   height: 100%;
   background-size: cover;
   background-position: center;
 }
-.hero-title-container{
+.hero-title-container {
   position: absolute;
   text-align: center;
   width: 90%;
@@ -173,7 +171,7 @@ body{
   align-items: center;
   flex-direction: column;
 }
-#shop-now{
+#shop-now {
   background-color: rgb(153, 47, 47);
   color: white;
   font-size: 24px;
@@ -181,14 +179,14 @@ body{
   padding: 5px 15px;
   border: 1px solid white;
 }
-.hero-title{
+.hero-title {
   font-size: 15vw;
   font-weight: 100;
   color: white;
   text-shadow: -2px 2px 10px #000000;
   max-width: 1100px;
 }
-.hero-right{
+.hero-right {
   width: 60%;
   height: 100%;
   gap: 15px;
@@ -197,43 +195,42 @@ body{
   align-items: center;
   flex-direction: column;
 }
-.top-right{
-  background-image: url('/images/heroImage2.jpg');
+.top-right {
+  background-image: url("images/heroImage2.jpg");
   height: 50%;
   width: 100%;
   background-position: center;
   background-size: cover;
 }
-.bottom-right{
-  background-image: url('/images/heroImage3.jfif');
+.bottom-right {
+  background-image: url("images/heroImage3.jfif");
   width: 100%;
   height: 50%;
   background-size: cover;
   background-position: center;
 }
 
-@media screen and (min-width: 1430px){
-  .hero-title{
+@media screen and (min-width: 1430px) {
+  .hero-title {
     font-size: 216px;
   }
 }
 
-
 /* sale banner */
-.sale-banner{
+.sale-banner {
   width: 100%;
   height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.sale-banner-container{
+.sale-banner-container {
   width: 90%;
 }
-#sale-banner{
+#sale-banner {
   width: 100%;
 }
-.featured{
+.featured {
   width: 100%;
   height: fit-content;
   display: flex;
@@ -241,7 +238,7 @@ body{
   align-items: center;
   margin-top: 28px;
 }
-.featured-container{
+.featured-container {
   width: 90%;
   height: fit-content;
   display: flex;
@@ -250,29 +247,29 @@ body{
   flex-direction: column;
   gap: 30px;
 }
-.featured-bottom{
+.featured-bottom {
   width: 100%;
   height: 300px;
-  background-image: url('/images/featured.gif');
+  background-image: url("images/featured.gif");
   background-position: center;
   background-size: contain;
 }
 
-.featured-top{
+.featured-top {
   width: 100%;
   height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.featured-top-left{
-  background-image: url('/images/featuredOld.gif');
+.featured-top-left {
+  background-image: url("images/featuredOld.gif");
   width: 100%;
   height: 100%;
   background-position: center;
   background-size: cover;
 }
-.featured-top-right{
+.featured-top-right {
   width: 100%;
   height: 100%;
   display: flex;
@@ -280,17 +277,17 @@ body{
   align-items: center;
   flex-direction: column;
 }
-.featured-title{
+.featured-title {
   font-size: 8vw;
   text-align: center;
   color: #111111;
 }
-.featured-p{
+.featured-p {
   font-size: 24px;
   text-align: center;
 }
-@media screen and (min-width: 1470px){
-  .featured-title{
+@media screen and (min-width: 1470px) {
+  .featured-title {
     font-size: 150px;
   }
 }

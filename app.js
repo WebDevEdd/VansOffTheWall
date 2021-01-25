@@ -71,7 +71,7 @@ const cartRow = () => {
             <div id=${storedItemProps.key} class="cart-row">
                 <div class="cart-row-section">
                     <p class='rmv-btn'>x</p>
-                    <img class="cart-row-img" src="images/${storedItemProps.type}/${storedItemProps.image}" alt="">
+                    <img class="cart-row-img" src="https://raw.githubusercontent.com/WebDevEdd/VansOffTheWall/master/images/Shoes/${storedItemProps.image}" alt="">
                 </div>
                 <div class="cart-row-section">
                     <p class="cart-row-name">${storedItemProps.name}</p>
